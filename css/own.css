@@ -1,0 +1,224 @@
+
+#mainbackground{
+	margin: 0px;
+	padding: 10px;
+  background-image: url("../img/img1.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%
+  top: 0;
+ 	bottom: 0;
+ 	 z-index:-1;
+  position: relative;
+}
+ body{
+ 	background-color:#343a40 ;
+ }
+
+.floating{
+	width: 32%;
+	text-align: left;
+	word-wrap:break-word;
+}
+
+#contact{
+	
+	padding-left: 10px;
+	margin-left:10px;
+	
+
+}
+
+
+
+.img-roll{
+	width:100%;
+  height:2000px;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.footer-wrap {
+	 display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+	margin:20px;
+	height:auto;
+  	width: 100%;
+}
+
+
+
+.cards{
+
+  width:90%;
+  background-color: #fff;
+  background-clip: border-box;
+  text-align: left;
+	word-wrap:break-word;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.modal-bodys {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-contents {
+	display: inline-block;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  }
+
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.bouttonconect button 
+{
+	 position:absolute;
+  	bottom: 0px;
+  	left:100px;
+}
+
+.modal-Acc {
+    width: 40%;
+    margin:auto;
+    margin-top:20px;
+    height:600px;
+    
+}
+.modal-col1{
+	width:60%;
+	flex-direction: column;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center;
+  word-wrap:break-word;
+  height:auto;
+	margin:auto;
+  position: relative;
+  /*border-right:0.5px solid #343a40;*/
+}
+
+.textarea{
+}
+
+
+.modal-col2{
+	   width:0px;
+	  
+  	 margin:20px;
+  	 height : auto;
+}
+.AccToggle{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+    margin:20px;
+    height:auto;
+}
+.modal-col1togg{
+	width:25%;
+	display: flex; 
+  	flex-wrap: wrap; 
+  	justify-content: center;
+	word-wrap:break-word;
+  	height:auto;
+  	margin:20px;
+  	padding-right: 10px;
+  	border-right:0.5px solid #343a40;
+}
+.modal-col2togg{
+	width:65%;
+	display: flex; 
+  	flex-wrap: wrap; 
+  	flex-direction: column;
+  	justify-content: left;
+	word-wrap:break-word;
+	text-align: left;
+  	margin:20px;
+  	height: auto;
+}
+.modal-col2togg button{
+  width:180px;
+  text-align: center;
+}
+
+.plusIcon{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f067";
+}
+
+.gallery{
+  text-align: left;
+  word-wrap:break-word;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: ;
+
+}
+
+.galleryitem img {
+  margin: 20px;
+  display: block;
+  transition:.3s;
+
+}
+
+.galleryitem{
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+    margin:4px;
+}
+
+.galleryitem:hover img{
+  filter:blur(2px) brightness(60%);
+}
+
+.galleryitem :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.galleryitem h4{  
+  top:50%;
+}
+
+.galleryitem:hover :not(img){
+    opacity:1;
+  }
+
+.modal-footer{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
